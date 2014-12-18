@@ -15,8 +15,14 @@
                         </label>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Refresh" id="xQO-VX-2ye">
                             <fontDescription key="font" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                            <connections>
+                                <action selector="refreshTapped" destination="AgC-eL-Hgc" id="gXW-sO-EEs"/>
+                            </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="priceLabel" destination="ckV-m0-dWe" id="RLw-KS-Q9o"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
