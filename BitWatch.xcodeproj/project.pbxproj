@@ -12,7 +12,7 @@
 		7B876B711A1C9F2D00A76FAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B701A1C9F2D00A76FAF /* Images.xcassets */; };
 		7B876B741A1C9F2D00A76FAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B876B721A1C9F2D00A76FAF /* LaunchScreen.xib */; };
 		7B876BB81A1CA05900A76FAF /* BitWatchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B876BB71A1CA05900A76FAF /* BitWatchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B876BCA1A1CA05900A76FAF /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; };
+		7B876BCA1A1CA05900A76FAF /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7B876BCB1A1CA05900A76FAF /* BitWatchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B876BD31A1CA0ED00A76FAF /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876BD21A1CA0ED00A76FAF /* Tracker.swift */; };
 		7BA883AF1A1CAFB500C53ECE /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA883AE1A1CAFB500C53ECE /* PriceViewController.swift */; };

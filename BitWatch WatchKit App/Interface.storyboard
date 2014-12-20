@@ -13,6 +13,17 @@
                         <label alignment="center" text="$0.00" id="ckV-m0-dWe">
                             <fontDescription key="font" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
                         </label>
+                        <group width="1" alignment="left" hasDetent="YES" id="OKd-Hn-B3G">
+                            <items>
+                                <imageView width="32" height="32" alignment="center" verticalAlignment="center" id="Y6F-hT-5os"/>
+                                <label alignment="center" verticalAlignment="center" text="1 BTC" id="BUJ-Y6-RtQ">
+                                    <fontDescription key="font" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="center" verticalAlignment="bottom" text="Last Updated" textAlignment="center" id="lVu-G8-NBn">
+                            <fontDescription key="font" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                        </label>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Refresh" id="xQO-VX-2ye">
                             <fontDescription key="font" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                             <connections>
@@ -21,6 +32,8 @@
                         </button>
                     </items>
                     <connections>
+                        <outlet property="image" destination="Y6F-hT-5os" id="kQl-1z-xte"/>
+                        <outlet property="lastUpdatedLabel" destination="lVu-G8-NBn" id="vTQ-dR-AFB"/>
                         <outlet property="priceLabel" destination="ckV-m0-dWe" id="RLw-KS-Q9o"/>
                     </connections>
                 </controller>
